@@ -1,0 +1,179 @@
+:root {
+    ---purple: #ff00c1;
+    ---violet: #9600FF;
+    ---darkblue: #242d60;
+    ---blue: #4900FF;
+    ---lightblue: #00B8FF;
+    ---cyan: #00FFF9;
+    ---white: #F8F0E3;
+    ---black: #19191a;
+    ---lightgray: #bebebe;
+    ---gray: #878683;
+}
+
+* {
+    font-family: Raleway, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(---black);
+}
+
+a {
+    color: var(---white);
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+    color: var(---white);
+}
+
+h1, h2 {
+    color: var(---white);
+    margin: 20px 0px 20px 0px;
+    width: 100%;
+    font-size: 42px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+/* CHANGE THE COLOR AND DESIGN OF THIS LINE */
+nav {
+    width: 100%;
+    border-bottom: 2px solid var(---cyan);
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+nav li ul {
+    font-size: 36px;
+    display: inline-flex;
+    
+}
+
+header {
+    padding: 20px;
+}
+
+main {
+    width: 100%;
+    display: inline-block;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+#horiseon-project {
+    background-image: url(/assets/images/My\ project-min.png);
+    background-size: 650px;
+    background-position: center;
+}
+
+.section-break {
+    height: 100px;
+    width: 100%;
+}
+
+.grid {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.title-highlight {
+    color: var(---cyan);
+}
+
+/* About me section */
+.me {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.biography {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+/* Project section */
+.project-box {
+    width: 330px;
+    height: 330px;
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid var(---cyan);
+    transition: all 0.5s ease-in-out;
+    padding: 5px;
+    margin: 20px; 
+    color: var(---white);
+    flex: 0 0 330px;
+}
+
+.project-box p  {
+    display: none;
+    text-align: center;
+    padding: 90px 0px;
+    font-size: 24px;
+    border-radius: 50%;
+}
+
+.project-title, .title-highlight {
+    background: none;
+    font-weight: 600;
+}
+
+
+.project-box:hover {
+    box-shadow: inset 0px 0px 8px var(---lightblue), 0 0 20px var(---lightblue);   
+}
+
+.project-box:hover p {
+    display: block;
+    background: none;
+}
+
+/* Contact form */
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid var(---cyan); 
+    border-radius: 4px; 
+    box-sizing: border-box;     
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+    color: var(---white)
+}
+
+input[type=submit] {
+    background-color: var(---violet);
+    color: var(---white);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    box-shadow: inset 0px 0px 8px var(---violet), 0 0 20px var(---violet);  
+}
+ 
+label {
+    color: var(---white)
+}
+
+.container {
+    border-radius: 5px;
+    background-color: var(---white);
+    padding: 20px;
+  }
