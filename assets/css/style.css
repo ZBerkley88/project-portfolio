@@ -69,6 +69,10 @@ footer {
     scale: 110%;
 } */
 
+#placeholder-project-title-2 {
+    scale: 90%;
+}
+
 .section-break {
     height: 116px;
     width: 100%;
