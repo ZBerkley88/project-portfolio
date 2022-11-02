@@ -104,6 +104,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
+    text-align: center;
     font-style: italic;
 }
 
@@ -197,12 +198,12 @@ label {
     color: var(---white)
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:1077px){
     .grid, .project-box {
       flex-direction: column;
       justify-content: center;
       flex-grow: 2;
-      margin: 20px auto;
+      margin: 50px auto;
       position: relative;
     }
 }

@@ -12,9 +12,9 @@ The biggest hurdle for this project was mastering the box model. I ran into seve
 
 Overall, I am pleased with the look of the project. It does not look anything like the original wireframe blueprint I designed when I first started the project, but I do not believe I "settled" for the final design. I look forward to modifying and adding to this portfolio over the next few months. 
 
-![Zachary Berkley's Portfolio](/assets/images/website-preview.jpg)
-
 [Zachary Berkley's Portfolio](https://zberkley88.github.io/project-portfolio/)
+
+![Zachary Berkley's Portfolio](/assets/images/website-preview.jpg)
 
 ## Installation
 
