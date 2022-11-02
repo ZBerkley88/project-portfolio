@@ -65,8 +65,12 @@ footer {
     text-align: center;
 }
 
-#horiseon-project, #flycast-trip-planner {
+/* #horiseon-project, #flycast-trip-planner {
     scale: 110%;
+} */
+
+#placeholder-project-title-2 {
+    scale: 90%;
 }
 
 .section-break {
